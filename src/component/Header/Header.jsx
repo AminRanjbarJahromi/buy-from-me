@@ -1,12 +1,12 @@
 import React from 'react'
-import './Heads.css'
+import './Header.css'
 const Header = () => {
   return (
     <section className='h-wrapper'>
       <div className='flexCenter paddings innerWidth h-container'>
         <img src='./logo.png' alt='logo' width={100}/>
 
-        <div className='h-menu'>
+        <div className='flexCenter h-menu'>
           <a href="">Residencies</a>
           <a href="">Our value</a>
           <a href="">About us</a>
